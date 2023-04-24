@@ -10,15 +10,14 @@
       .container {
         min-height: 100vh;
         display: grid;
-        grid-template-columns: repeat(3, 100px);
-        grid-template-rows: repeat(2, 200px);
-        justify-content: flex-start;
-        justify-content: flex-end;
-        justify-content: center;
-        justify-content: space-between;
-        justify-content: space-evenly;
-        align-content: flex-end;
-        align-content: space-evenly;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: end;
+        justify-items: flex-end;
+      }
+      .cell-6 {
+        align-self: flex-start;
+        justify-self: flex-start;
       }
     </style>
   </head>
