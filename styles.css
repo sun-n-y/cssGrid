@@ -22,5 +22,26 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  border: 1px solid red;
+  border: 3px solid red;
+  color: white;
+}
+
+.cell-1 {
+  background: #581f18;
+}
+
+.cell-2 {
+  background: #f0a202;
+}
+
+.cell-3 {
+  background: #d95d39;
+}
+
+.cell-4 {
+  background: #202c59;
+}
+
+.cell-5 {
+  background: #51cb20;
 }
