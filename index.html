@@ -10,14 +10,8 @@
       .container {
         min-height: 100vh;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr minmax(200px, 1fr) 1fr;
         grid-template-rows: repeat(2, 1fr);
-        align-items: end;
-        justify-items: flex-end;
-      }
-      .cell-6 {
-        align-self: flex-start;
-        justify-self: flex-start;
       }
     </style>
   </head>
