@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="./styles.css" />
     <style>
       .container {
+        margin: 7rem;
         min-height: 100vh;
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 1fr 1fr 1fr;
-        /* grid-column-gap: 20px;
-        grid-row-gap: 20px;
-        grid-gap: 50px; */
-        column-gap: 50px;
-        row-gap: 50px;
-        gap: 20px 100px;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 1rem;
+      }
+      .cell-1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .cell-4 {
+        grid-column: -4/-1;
       }
     </style>
   </head>
